@@ -8,7 +8,7 @@ let photosArray=[];
 // UnsplashAPI
 const count=30;
 const apiKey='6vwHwsIhl_1Ir1iNLvE4k5ARfYOmrNn1WUbtQjpC3j4';
-const topics="dogs"
+const topics="Kitten"
 // Un peu tricky pour mettre les arguments dans la request
 const apiUrl=`https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=${topics}`;
 
